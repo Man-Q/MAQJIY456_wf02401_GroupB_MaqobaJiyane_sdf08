@@ -433,10 +433,29 @@ header {
     padding: 0;
 }
 
+.project-description{
+    display: none;
+}
+
+.portfolio__item:hover .project-description{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    z-index: 2;
+    display: flex;
+}
+
 .portfolio__img {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+        object-fit: cover;
+        
+    width: 300px;
+    height: 300px;
 }
 
 .portfolio__item:focus {
