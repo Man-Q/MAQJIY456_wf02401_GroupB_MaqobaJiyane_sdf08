@@ -129,7 +129,7 @@ h3 { font-size: var(--fs-h3) }
 
 .title-animation{
     animation-name: title;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
